@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2050
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HowMuchWilliSave", "HowMuchWilliSave\HowMuchWilliSave.csproj", "{292CEE7B-B66C-437E-9134-2190A202E184}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{292CEE7B-B66C-437E-9134-2190A202E184}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{292CEE7B-B66C-437E-9134-2190A202E184}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{292CEE7B-B66C-437E-9134-2190A202E184}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{292CEE7B-B66C-437E-9134-2190A202E184}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E634D390-3DD2-4DEB-AD17-743A74FEE3E0}
+	EndGlobalSection
+EndGlobal
