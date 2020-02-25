@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Accumulators2", "Accumulato
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Palindrome", "Palindrome\Palindrome.csproj", "{A10269ED-31FC-4ADC-9243-798337C5F53E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "String Manipulation Practice", "String Manipulation Practice\String Manipulation Practice.csproj", "{96E12D58-EF58-4B66-A46C-84B4E06E1C5F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{A10269ED-31FC-4ADC-9243-798337C5F53E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A10269ED-31FC-4ADC-9243-798337C5F53E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A10269ED-31FC-4ADC-9243-798337C5F53E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96E12D58-EF58-4B66-A46C-84B4E06E1C5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96E12D58-EF58-4B66-A46C-84B4E06E1C5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96E12D58-EF58-4B66-A46C-84B4E06E1C5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96E12D58-EF58-4B66-A46C-84B4E06E1C5F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
