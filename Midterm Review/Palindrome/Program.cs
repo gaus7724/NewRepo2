@@ -26,6 +26,7 @@ namespace Palindrome
             userInputReversed.ToLower();
             if (userInputReversed == userInput)
             {
+
                 Console.WriteLine("Congrats! Your word " + userInput + "is a palindrome");
             }
             else
