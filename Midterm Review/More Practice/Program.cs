@@ -65,7 +65,7 @@ namespace More_Practice
              }
              Console.WriteLine(firstNameReversedAgain);
              */
-            /*  string sent = "I love studying programming.";
+              string sent = "I love studying programming.";
               string search = "";
               string replace = "";
 
@@ -77,17 +77,30 @@ namespace More_Practice
               replace = Console.ReadLine();
 
               string newSent = "";
-              if (sent.Contains(search))
-              {
-                newSent =  sent.Replace(search, replace);
-                  Console.WriteLine(newSent);
-              }
-              else
-              {
-                  Console.WriteLine("sorry. that word is not in the sentence");
-              }
-              */
-            Random rnd = new Random();
+            if (sent.Contains(search))
+            {
+                newSent = sent.Replace(search, replace);
+                Console.WriteLine(newSent);
+            }
+            else
+            {
+                Console.WriteLine("sorry. that word is not in the sentence");
+                /* for (int i = replace.Length - 1; i >= 0; i--)
+                 {
+                     Console.Write(replace[i]);
+
+                 } */
+                string replaceReversed = "";
+                int index = replace.Length -1;
+                while (index >= 0)
+                {
+                    replaceReversed += replace[index];
+                    index--;
+                }
+                Console.WriteLine(replaceReversed);
+            }
+              
+           /* Random rnd = new Random();
            int rndNum = rnd.Next(0, 10);
             int rndNum2 = rnd.Next(0, 10);
             int sum = 0;
@@ -108,7 +121,7 @@ namespace More_Practice
                     Console.WriteLine("Congrats! You're correct.");
                 }
 
-            } while (guess != sum);
+            } while (guess != sum); */
 
             Console.ReadKey();
         }
