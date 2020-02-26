@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Palindrome", "Palindrome\Pa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "String Manipulation Practice", "String Manipulation Practice\String Manipulation Practice.csproj", "{96E12D58-EF58-4B66-A46C-84B4E06E1C5F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "More Practice", "More Practice\More Practice.csproj", "{6400A0AA-B779-4045-8E50-FBDF0A2C5EB7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{96E12D58-EF58-4B66-A46C-84B4E06E1C5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{96E12D58-EF58-4B66-A46C-84B4E06E1C5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{96E12D58-EF58-4B66-A46C-84B4E06E1C5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6400A0AA-B779-4045-8E50-FBDF0A2C5EB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6400A0AA-B779-4045-8E50-FBDF0A2C5EB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6400A0AA-B779-4045-8E50-FBDF0A2C5EB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6400A0AA-B779-4045-8E50-FBDF0A2C5EB7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
