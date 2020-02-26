@@ -18,20 +18,33 @@ namespace Palindrome
             userInput.ToLower();
             index = userInput.Length - 1;
 
-            while (index >=0)
+            /*  while (index >=0)
+              {
+                  userInputReversed += userInput[index];
+                  index--;
+              }
+              userInputReversed.ToLower();
+              if (userInputReversed == userInput)
+              {
+
+                  Console.WriteLine("Congrats! Your word " + userInput + "is a palindrome");
+              }
+              else
+              {
+                  Console.WriteLine("Your word " + userInput + " is not a palindrome. Your word reversed is " + userInputReversed);
+              } */
+
+            for (int i = userInput.Length -1; i >= 0; i--)
             {
-                userInputReversed += userInput[index];
-                index--;
+                userInputReversed += userInput[i];
             }
-            userInputReversed.ToLower();
             if (userInputReversed == userInput)
             {
-
-                Console.WriteLine("Congrats! Your word " + userInput + "is a palindrome");
+                Console.WriteLine($"Congrats! Your word {userInput} is a palindrome.");
             }
             else
             {
-                Console.WriteLine("Your word " + userInput + " is not a palindrome. Your word reversed is " + userInputReversed);
+                Console.WriteLine($"Sorry. Your word {userInput} is not a palindrome. Your word reversed is {userInputReversed}");
             }
 
             Console.ReadKey();
