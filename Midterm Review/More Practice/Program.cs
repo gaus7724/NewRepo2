@@ -85,19 +85,28 @@ namespace More_Practice
             else
             {
                 Console.WriteLine("sorry. that word is not in the sentence");
+                //outputs word reversed in one line
                 /* for (int i = replace.Length - 1; i >= 0; i--)
                  {
                      Console.Write(replace[i]);
 
                  } */
-                string replaceReversed = "";
-                int index = replace.Length -1;
-                while (index >= 0)
+                 string replaceReversed = "";
+                 int index = replace.Length -1;
+                 //outputs word reversed in one line
+                 while (index >= 0)
+                 {
+                     replaceReversed += replace[index];
+                     index--;
+                 }
+                 Console.WriteLine(replaceReversed);
+                 //outputs everyother letter in one line
+                for (int i = 0; i <= replace.Length -1; i= i + 2)
                 {
-                    replaceReversed += replace[index];
-                    index--;
+                    Console.Write
+                        (replace[i]);
                 }
-                Console.WriteLine(replaceReversed);
+                
             }
               
            /* Random rnd = new Random();

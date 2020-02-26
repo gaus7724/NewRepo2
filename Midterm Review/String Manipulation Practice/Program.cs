@@ -55,11 +55,11 @@ namespace String_Manipulation_Practice
             Console.WriteLine("First initial is " + firstInitial);
             Console.WriteLine("Last initial is " + lastInitial);
 
-            
+
 
             for (int i = firstName.Length -1; i >= 0; i--)
             {
-                Console.WriteLine(firstName[i]);
+                Console.Write(firstName[i]);
             }
 
             Console.ReadKey();
