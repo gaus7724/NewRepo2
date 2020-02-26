@@ -42,7 +42,7 @@ namespace String_Manipulation_Practice
             char firstInitial = firstName[0];
             char lastInitial = lastName[0];
 
-            for (int i = 0; i <firstName.Length; i = i + 1)
+            for (int i = 0; i <firstName.Length; i = i +1)
             {
                 char currentLetter = firstName[i];
                 Console.WriteLine(currentLetter + " ");
